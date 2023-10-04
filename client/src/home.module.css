@@ -1,24 +1,56 @@
 
 .homeContainer {
-   width: 400px;
-   margin: 0 auto ;
-   padding: 50px;
-   background-color: #ECF0F5;
+    width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #ECF0F5;
 }
+
 .titleh2 {
     font-size: 45px;
     margin-top: 20px;
     letter-spacing: 1px;
 }
+
 .titleInput {
-   font-size: 20px;
+    font-size: 20px;
+    line-height: 1px;
 }
- input {
-    width: 100%;
+
+input {
+    width: 98%;
+    height: 25px;
+    padding-left: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+
 }
+
 select {
-    width: 100%; 
+    width: 102%;
+    height: 30px;
+    outline: none;
+    font-size: 15px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
 }
+
 .lastchild {
     margin-bottom: 30px
+}
+.btnSubmit {
+    width: 102%;
+    height:40px;
+    border: none;
+    outline: none;
+    background-color: dodgerblue;
+    font-size: large;
+    border-radius: 3px;
+   color:#fff;
+   letter-spacing: 1px;
 }
