@@ -1,6 +1,6 @@
 .questionContainer {
     width: 600px;
-    background-color: rgb(246, 245, 232);
+    background-color: rgb(240, 223, 218);
     padding: 30px;
     margin: 0 auto;
 }
@@ -29,7 +29,7 @@ line-height: 140%;
     padding-bottom: 10px;
     font-size: 20px;
     border: none;
-    background-color: rgb(105, 135, 190);
+    background-color:rgb(218, 164, 146);
     margin-bottom: 8px;
 }
 .questionContainer button {

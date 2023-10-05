@@ -78,7 +78,9 @@ exports.getQuestionWithAnswers = async (req, res, next) => {
 // lấy về 1 question với tiêu chí category, level, limit 
 exports.getQuestionWithParams = async (req, res, next) => {
   const { categoryId, level, limit } = req.query;
-  let query = `SELECT * FROM question WHERE 1`;
+  let query = `SELECT question.id, question.categoryid, question.content, question.level, 
+  answer.questionId, answer.is_answer, answer.content
+    FROM question join answer on question.id=answer.questionId WHERE 1`;
   const params = [];
   if (categoryId) {
     query += ` AND categoryid = ? `;
